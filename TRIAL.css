@@ -1,0 +1,97 @@
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2px;
+    text-align: center;
+}
+.head{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.sub{
+    color: rgb(134, 231, 255);
+    margin-bottom: 10px;
+}
+.green{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: solid;
+    border-color: black;
+    transition: box-shadow 0.5s;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-shadow: 2px 2px 0px black, 4px 4px 0px black, 6px 6px 0px black;
+    
+}
+.green:hover{
+    cursor: pointer;
+    
+    transition: opacity 0.25s;
+    position: relative;
+}
+.green:active{
+    box-shadow: 0px 0px 0px;
+    top: 6px;
+    left: 6px;
+}
+.black{
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    border-color: white;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-width: 1px;
+    box-shadow: white 4px 4px 0px, black 4px 4px 0px 1px;
+    border: 1px solid;
+    border-color: black;
+    box-sizing: border-box;
+    overflow: visible;
+    touch-action: manipulation;
+    margin: 25px;
+    
+    
+}
+.black:hover{
+    cursor: pointer;
+    position: relative;
+    transition: opacity 3s;
+}
+.black:active{
+    box-shadow: white 2px 2px 0px, black 2px 2px 0px 1px;
+    top: 2px;
+    left: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sedd{
+    text-align: center;
+}
+.sed{
+    text-decoration:double;
+    
+}
+.sed:hover{
+    background-color: green;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-top: none;
+}
